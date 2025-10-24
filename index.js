@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Anti-Spam - The Ultimate Spam Protection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- General & Reset --- */
+        :root {
+            --primary-color: #4f46e5;
+            --primary-hover: #4338ca;
+            --background-color: #111827;
+            --card-background: #1f2937;
+            --text-color: #f9fafb;
+            --text-muted: #9ca3af;
+            --border-color: #374151;
+            --success-color: #22c55e;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* --- Layout & Containers --- */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header, section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        /* --- Typography --- */
+        h1, h2, h3 {
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            background: linear-gradient(90deg, #a78bfa, #4f46e5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: var(--text-color);
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: var(--text-color);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--primary-hover);
+        }
+
+        /* --- Hero Section --- */
+        header {
+            background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0);
+            background-size: 20px 20px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            margin-top: -10px;
+        }
+
+        /* --- THE PROMINENT SCRIPT BLOCK --- */
+        .code-block-wrapper {
+            position: relative;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #000;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        pre {
+            padding: 25px 30px;
+            overflow-x: auto;
+            text-align: left;
+        }
+
+        code {
+            font-family: 'SF Mono', 'Fira Code', 'Menlo', 'Monaco', monospace;
+            font-size: 1rem;
+            color: #d1d5db;
+            white-space: pre;
+        }
+        
+        .code-block-wrapper .copy-button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: var(--card-background);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .code-block-wrapper .copy-button:hover {
+            background-color: var(--border-color);
+            color: var(--text-color);
+        }
+        
+        .code-block-wrapper .copy-button.copied {
+            background-color: var(--success-color);
+            color: #fff;
+            border-color: var(--success-color);
+        }
+        
+        /* --- Features Section --- */
+        #features {
+            background-color: var(--card-background);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            background-color: var(--background-color);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(79, 70, 229, 0.2);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* --- "How It Works" Section --- */
+        .step-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        .step {
+            max-width: 300px;
+        }
+        
+        .step .step-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .step h3 {
+            margin-top: -10px;
+        }
+
+        /* --- Footer --- */
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            header, section {
+                padding: 60px 0;
+            }
+            .step {
+                margin-bottom: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div class="container">
+            <h1>Advanced Anti-Spam</h1>
+            <p class="hero-subtitle">The intelligent, effortless solution to protect your forms from bots and spam. No CAPTCHAs, no user friction, just clean data.</p>
+            
+            <p>Get started in 30 seconds. Just add this script to your website's head tag.</p>
+
+            <!-- THE PROMINENT SCRIPT BLOCK -->
+            <div class="code-block-wrapper">
+                <button class="copy-button" id="copyButton">Copy</button>
+                <pre><code id="codeToCopy">&lt;script src="https://raw.githubusercontent.com/SuperCoder9203/advanced-anti-spam/refs/heads/main/advanced-anti-spam.js"&gt;&lt;/script&gt;</code></pre>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- FEATURES SECTION -->
+        <section id="features">
+            <div class="container">
+                <h2>Why Choose Advanced Anti-Spam?</h2>
+                <p>Our solution is built for the modern web: effective, invisible, and incredibly easy to use.</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Invisible Protection</h3>
+                        <p>Works silently in the background. Users won't even know it's there. Say goodbye to frustrating CAPTCHAs and challenges that hurt conversion rates.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>Heuristic & AI Analysis</h3>
+                        <p>Utilizes advanced heuristic algorithms and machine learning patterns to distinguish between human and bot behavior with unparalleled accuracy.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Blazing Fast & Lightweight</h3>
+                        <p>The script is tiny and loads asynchronously, meaning it has zero impact on your page load times. Your website remains fast and responsive.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧩</div>
+                        <h3>One-Line Integration</h3>
+                        <p>Simply copy and paste one line of code. That's it. No complex configuration, no server-side setup, no API keys needed. It just works.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Constantly Evolving</h3>
+                        <p>Spam techniques change, and so do we. Our script is continuously updated from the cloud to combat the latest threats without you needing to do a thing.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Works Everywhere</h3>
+                        <p>Protects any HTML form on any platform—static sites, WordPress, Shopify, custom applications, and more. If it's a form, we protect it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS SECTION -->
+        <section id="how-it-works">
+            <div class="container">
+                <h2>Simple Setup in Seconds</h2>
+                <div class="step-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Copy the Script</h3>
+                        <p>Click the 'Copy' button on the code snippet at the top of the page.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Paste It In</h3>
+                        <p>Paste the single line of code anywhere in your website's `<head>` section.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Relax</h3>
+                        <p>You're done. Your forms are now actively protected against bots and spam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SuperCoder9203. All Rights Reserved.</p>
+            <p><a href="https://github.com/SuperCoder9203/advanced-anti-spam" target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script>
+        const copyButton = document.getElementById('copyButton');
+        const codeToCopy = document.getElementById('codeToCopy');
+
+        copyButton.addEventListener('click', () => {
+            // Using the Clipboard API for modern, secure copying
+            navigator.clipboard.writeText(codeToCopy.textContent).then(() => {
+                // Provide visual feedback
+                copyButton.textContent = 'Copied!';
+                copyButton.classList.add('copied');
+                
+                // Reset the button text after 2 seconds
+                setTimeout(() => {
+                    copyButton.textContent = 'Copy';
+                    copyButton.classList.remove('copied');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+                // Fallback for older browsers could be implemented here if needed
+            });
+        });
+    </script>
+</body>
+</html>
