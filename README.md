@@ -1,7 +1,7 @@
 # 🛡️ Advanced Anti-Spam
 
 [![License](https://img.shields.io/badge/License-Custom-blue.svg)](https://github.com/SuperCoder9203/advanced-anti-spam/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/SuperCoder9203/advanced-anti-spam)
+[![Version](https://img.shields.io/badge/version-5.6.0-green.svg)](https://github.com/SuperCoder9203/advanced-anti-spam)
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Dependencies](https://img.shields.io/badge/dependencies-zero-lightgrey.svg)]()
 
