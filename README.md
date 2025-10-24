@@ -29,4 +29,4 @@ Place the following script tag inside the `<head>` section of your HTML file. Th
 ### The Magic Snippet
 
 ```html
-<script src="https://raw.githubusercontent.com/SuperCoder9203/advanced-anti-spam/refs/heads/main/advanced-anti-spam.js"></script>
+<script src="https://advancedantispam.cfd/advanced-anti-spam.js"></script>
