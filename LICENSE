@@ -1,9 +1,69 @@
-Advanced Anti-Spam License
+### **END-USER LICENSE AGREEMENT (EULA) for Advanced Anti-Spam**
 
-(c) 2025 SuperCoder9203 All Rights Reserved
+**IMPORTANT—READ CAREFULLY:** This End-User License Agreement ("EULA" or "Agreement") is a legally binding contract between you, the end-user (either an individual or a single entity, hereinafter referred to as "You" or "Licensee"), and SuperCoder9203 (hereinafter referred to as "SuperCoder9203," "Licensor," "we," "us," or "our") for the software product identified above, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation (collectively, the "Software").
 
-"we", "us" as in SuperCoder9203
+By installing, copying, downloading, accessing, or otherwise using the Software, you acknowledge that you have read this Agreement, that you understand it, and that you agree to be bound by its terms and conditions. If you do not agree to the terms of this EULA, do not install, access, or use the Software. The installation or use of this Software signifies your unconditional acceptance of this Agreement.
 
-1. You may not reverse engineer, modify, decompile or attempt to access source code in any way
-2. Advanced Anti-Spam is provided AS IS with NO WARRANTY
-3. We are NOT liable for any damages caused by the use of Advanced Anti-Spam
+**(c) 2025 SuperCoder9203. All Rights Reserved.**
+
+---
+
+**ARTICLE I: DEFINITIONS**
+
+1.1. **"Software"** shall mean the "Advanced Anti-Spam" program in its object code form, including any and all accompanying files, data, libraries, modules, documentation (whether in electronic or printed form), and any future updates, upgrades, patches, bug fixes, or modified versions provided to you by the Licensor.
+
+1.2. **"Use" or "Using"** shall mean to access, install, download, copy, or otherwise benefit from employing the functionality of the Software in accordance with this Agreement.
+
+1.3. **"Intellectual Property Rights"** shall mean all rights in and to the Software, including but not limited to patents, copyrights, trademarks, trade secrets, trade dress, moral rights, and any other proprietary rights recognized in any jurisdiction worldwide.
+
+1.4. **"License"** shall mean the limited, non-exclusive, non-transferable, revocable right to Use the Software as granted herein.
+
+**ARTICLE II: GRANT OF LICENSE**
+
+Subject to your strict and continuous compliance with all terms and conditions of this EULA, SuperCoder9203 hereby grants you a personal, limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use a single copy of the Software on a single computer or device owned or controlled by you, solely for your personal or internal business purposes.
+
+**ARTICLE III: RESTRICTIONS AND PROHIBITIONS**
+
+The rights granted in Article II are subject to the following extensive restrictions. You hereby agree that you shall not, and shall not permit any third party to:
+
+**1. You may not reverse engineer, modify, decompile or attempt to access source code in any way.**
+   - **1.1. Decompilation and Reverse Engineering:** You shall not, under any circumstances, reverse engineer, decompile, disassemble, or otherwise attempt to derive, discover, or reconstruct the source code, underlying ideas, algorithms, file formats, or programming interfaces of the Software by any means whatsoever. This prohibition applies even if such actions are for the purposes of debugging, interoperability, or error correction.
+   - **1.2. Modification and Derivative Works:** You shall not modify, adapt, translate, rent, lease, loan, sell, distribute, or create derivative works based upon the Software or any part thereof. Any and all unauthorized modifications or derivative works are a direct violation of this Agreement and the Licensor's Intellectual Property Rights.
+   - **1.3. Circumvention of Protections:** You shall not attempt to bypass, disable, defeat, or otherwise circumvent any technological protection measures or security features embedded within or used in conjunction with the Software.
+   - **1.4. Access to Source Code:** You acknowledge that the source code of the Software is a confidential and proprietary trade secret of SuperCoder9203. You have no rights, express or implied, to access, view, or use the source code. Any attempt to gain access, whether successful or not, constitutes a material breach of this Agreement.
+
+**ARTICLE IV: OWNERSHIP AND INTELLECTUAL PROPERTY**
+
+You acknowledge and agree that the Software is licensed, not sold. SuperCoder9203 retains all right, title, and interest in and to the Software and all copies thereof, including all Intellectual Property Rights. All rights not expressly granted to you in this EULA are reserved in their entirety by SuperCoder9203. The structure, organization, and code of the Software are the valuable trade secrets and confidential information of SuperCoder9203.
+
+**ARTICLE V: DISCLAIMER OF WARRANTIES**
+
+**2. Advanced Anti-Spam is provided AS IS with NO WARRANTY.**
+   - **2.1. General Disclaimer:** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND. SUPERCODER9203 AND ITS AFFILIATES, LICENSORS, AND SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE SOFTWARE, WHETHER EXPRESS, IMPLIED, OR STATUTORY.
+   - **2.2. No Implied Warranties:** This disclaimer includes, but is not limited to, any and all implied warranties of merchantability, fitness for a particular purpose, accuracy, quiet enjoyment, title, and non-infringement of third-party rights.
+   - **2.3. No Performance Guarantee:** SuperCoder9203 does not warrant that the functions contained in the Software will meet your requirements, that the operation of the Software will be uninterrupted or error-free, that defects in the Software will be corrected, or that the Software will be compatible with any other software, hardware, or systems. You assume the entire risk as to the quality, performance, and accuracy of the Software.
+   - **2.4. No Oral or Written Information:** No oral or written information or advice given by SuperCoder9203 or its authorized representatives shall create a warranty or in any way increase the scope of this limited license. Should the software prove defective, you assume the entire cost of all necessary servicing, repair, or correction.
+
+**ARTICLE VI: LIMITATION OF LIABILITY**
+
+**3. We are NOT liable for any damages caused by the use of Advanced Anti-Spam.**
+   - **3.1. Broad Exclusion of Damages:** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL SUPERCODER9203, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, OR AGENTS BE LIABLE FOR ANY DAMAGES WHATSOEVER. THIS INCLUDES, WITHOUT LIMITATION, ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES.
+   - **3.2. Scope of Exclusion:** This exclusion of liability shall apply regardless of the theory of liability (whether contract, tort, negligence, strict liability, or otherwise) and includes damages for loss of profits, loss of data, loss of goodwill, business interruption, computer failure or malfunction, cost of procurement of substitute goods or services, or any and all other commercial or personal damages or losses.
+   - **3.3. Foreseeability:** This limitation of liability shall apply even if SuperCoder9203 has been advised of the possibility of such damages and even if any remedy set forth herein is found to have failed of its essential purpose.
+   - **3.4. User's Sole Responsibility:** You expressly acknowledge and agree that the use of the Software is at your sole and entire risk. You are solely responsible for any damage to your computer system, loss of data, or any other loss that results from the installation or use of the Software. The entire liability of SuperCoder9203 and your exclusive remedy under this EULA shall not exceed the greater of the amount actually paid by you for the Software license or one United States dollar (US $1.00).
+
+**ARTICLE VII: TERM AND TERMINATION**
+
+This EULA is effective from the moment you first Use the Software and shall continue in perpetuity unless terminated. This Agreement will terminate automatically and without notice from SuperCoder9203 if you fail to comply with any term or condition herein. Upon termination, you must immediately cease all Use of the Software and destroy all copies, full or partial, of the Software in your possession or control. The provisions of Articles III, IV, V, VI, and VIII shall survive the termination of this Agreement.
+
+**ARTICLE VIII: GENERAL PROVISIONS**
+
+8.1. **Governing Law:** This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction in which SuperCoder9203 is domiciled, without regard to its conflict of law principles.
+8.2. **Entire Agreement:** This EULA constitutes the entire agreement between you and SuperCoder9203 relating to the Software and supersedes all prior or contemporaneous oral or written communications, proposals, and representations with respect to the Software.
+8.3. **Severability:** If any provision of this EULA is held to be void, invalid, unenforceable, or illegal, the other provisions shall continue in full force and effect.
+8.4. **Waiver:** No failure or delay in exercising any right or remedy shall operate as a waiver of any other right or remedy.
+8.5. **Export Controls:** You agree to comply with all applicable U.S. and international export laws and regulations. You represent and warrant that you are not located in a country that is subject to a U.S. Government embargo or that has been designated by the U.S. Government as a "terrorist supporting" country.
+
+---
+
+**BY INSTALLING, COPYING, OR OTHERWISE USING THE "ADVANCED ANTI-SPAM" SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.**
